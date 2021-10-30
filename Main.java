@@ -11,7 +11,7 @@ public class Main {
 		JOptionPane.showMessageDialog(null, "Welcome to our guessing Game!","Welcome!", JOptionPane.INFORMATION_MESSAGE);
 		
 		//Question 1
-		input= JOptionPane.showInputDialog(null, "How many students are in HSN?\n 1450, 1600, 1780","Question #1",JOptionPane.INFORMATION_MESSAGE);
+		input= JOptionPane.showInputDialog(null, "How many students are in my school?\n 1450, 1600, 1780","Question #1",JOptionPane.INFORMATION_MESSAGE);
 		answer= Integer.parseInt(input);
 		
 		bool= (answer==1600);
@@ -20,8 +20,8 @@ public class Main {
 		//Question 2
 		input= JOptionPane.showInputDialog(null, "What is the name of the person sitting in front of me?","Question #2",JOptionPane.INFORMATION_MESSAGE);
 		
-		bool= input.equals("Arnav");
-		JOptionPane.showMessageDialog(null, bool+" The answer is Arnav!","Question #2",JOptionPane.INFORMATION_MESSAGE);
+		bool= input.equals("Jack");
+		JOptionPane.showMessageDialog(null, bool+" The answer is Jack!","Question #2",JOptionPane.INFORMATION_MESSAGE);
 		
 		//Question 3
 		input= JOptionPane.showInputDialog(null, "How old am I?\n13, 14, 15","Question #3",JOptionPane.INFORMATION_MESSAGE);
